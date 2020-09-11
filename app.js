@@ -24,20 +24,20 @@ function convertToDecimal(e) {
         if (input[i] === '1' || input[i] === '0') {
             // console.log('Correct')
         } else {
-            raiseAlert('Value have should be either 0 or 1', 1000);
+            raiseAlert('Value have should be either 0 or 1', 3000);
             return;
         }
     }
 
     if (input.length > 8) {
-        raiseAlert('Value have 8 digits length', 1000)
+        raiseAlert('Value have 8 digits length', 3000)
     } else {
         result.parentElement.style.display = 'block'
         result.textContent = calculateBinaryToDecimal(input);
 
         setTimeout(function () {
             result.parentElement.style.display = 'none'
-        }, 1500)
+        }, 3000)
 
         form.reset();
     }
