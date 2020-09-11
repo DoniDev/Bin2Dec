@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-group{
+    margin-bottom: 40px;
+}
+
+.answer-section{
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: white;
+    letter-spacing: 5px;
+    color: black;
+}
+
+.answer-section:hover{
+    background-color: black;
+    color: white;
+}
+
+.answer-section{
+    display: none;
+}
+
+.alert{
+    display: none;
+}
